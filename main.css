@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+
+body {
+    background-color: #9aec9a;
+}
+
+header {
+    background-color: rgb(5, 94, 5);
+    padding-top: 16px;
+    color: #fff;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input {
+	display: block;
+    width: 1024px;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+form {
+    display: block;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 18px;
+    background-color: #e9ecf3;
+    border: solid;
+    border-bottom: 2px solid #fff;
+    padding: 5px;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Formulário de cadastro</h1>
+        </header>
+        <form>
+            <input type="text" id="nome-completo" required placeholder="Nome completo" />
+            <input type="email" id="email" required placeholder="E-mail" />
+            <input type="tel" id="telefone-contato" required placeholder="Telefone contato" />
+            <input type="text" id="numero-do-cpf" required placeholder="CPF" />
+            <input type="text" id="endereco-completo" required placeholder="Endereço completo" />
+            <input type="text" id="numero-do-cep" required placeholder="CEP" />
+        </form>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+        $ (document).ready (function () {
+            $("#numero-do-cpf").mask("999.999.999-99");
+            $("#telefone-contato").mask("(999) 999-9999");
+            $("#numero-do-cep").mask("***-****");
+});
+    </script>
+</body>
+</html>
